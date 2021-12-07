@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rasgulla Video Call</string>
+
+       <string name="banner_id">ca-app-pub-2779631885874157/3789582564</string>
+
+<!--    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--        <string name="interstitialAd_id">ca-app-pub-3940256099942544/8691691433</string>-->
+
+
+    <string name="hyperlink">By using this video call you agree with our <a href="">rules</a>. Rules violators will be banned. Try to keep your face visible in camera frame. Cllick here to <a href="">READ MORE</a></string>
+    <string name="dialoghyper">Please observe these Terms when you \nsubmit your CONTENT \n\nFor more detailed information, please refer to <a href="">TERMS OF USE</a> <br></br>\n\n<br></br>
+    You are prohibited from posting and agree not to post any objectionable content which includes, but is not limited to: Sexually Explicit Material, Violence and Bullying, Hate Speech, Sensitive Event, illegal Activity, and Intellectual Property Infringement. Should you violate the TERMS, your account will be suspended.\n\n<br></br>
+        If you spot any violations, please inform us using the REPORT SYSTEM buit in our app. Any convicted violators shall be banned immediately.
+</string>
+
+    <string name="checkboxalert">To continue using our app please accept our \nterms of use.</string>
+    <string name="loginwithgoogle">This feature is disabled temporarily.\n Please sign in with google and get free 300 coins.</string>
+
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="Please sign in with google"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        app:tint="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/loginwithgoogle"
+        android:textColor="@color/black"
+        android:textColorLink="#C10101"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/nobtn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Disagree"
+android:visibility="gone"
+            android:background="#D6D6D6"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/yesbtn"
+            android:background="@drawable/shape_dialog_btn_agree"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:textSize="18dp"
+            android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="OK"/>
+
+    </LinearLayout>
+
+</LinearLayout>
